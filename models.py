@@ -8,7 +8,7 @@ class Season(models.Model):
     to_date = models.DateField()
 
     class Meta:
-        app_label = 'undercover'
+        app_label = 'playundercover'
 
 
 class Pair(models.Model):
@@ -19,7 +19,7 @@ class Pair(models.Model):
     season = models.ForeignKey(Season, on_delete=models.CASCADE, null=True, default=None)
 
     class Meta:
-        app_label = 'undercover'
+        app_label = 'playundercover'
 
 
 class User(models.Model):
@@ -27,7 +27,7 @@ class User(models.Model):
     email = models.CharField(max_length=50, primary_key=True)
 
     class Meta:
-        app_label = 'undercover'
+        app_label = 'playundercover'
 
 
 class UserPair(models.Model):
@@ -36,7 +36,7 @@ class UserPair(models.Model):
     pair = models.ForeignKey(Pair)
 
     class Meta:
-        app_label = 'undercover'
+        app_label = 'playundercover'
 
 
 class Namelist(models.Model):
@@ -45,4 +45,4 @@ class Namelist(models.Model):
     name = models.CharField(max_length=14)
 
     class Meta:
-        app_label = 'undercover'
+        app_label = 'playundercover'
