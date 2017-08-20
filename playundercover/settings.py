@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'playundercover.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'deq2lj7a9k9hov',
-        'USER': 'qcuaocztskjlsr',
-        'PASSWORD': '703ddd0e3a9922087dedff25603c897d5d1c5dfc39d1418d1d287ee6400d8c2d',
-        'HOST': 'ec2-107-20-226-93.compute-1.amazonaws.com',
+        'NAME': 'd8ejtml2d7sk56',
+        'USER': 'xavqrfybhzomps',
+        'PASSWORD': '116efc51930b79f26a4f8fd573e1d95533bc45f41eefb18c8826240a4428189d',
+        'HOST': 'ec2-107-22-250-33.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
