@@ -1,1 +1,1 @@
-web: gunicorn intelicopter.wsgi
+web: gunicorn playundercover.wsgi
